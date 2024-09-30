@@ -41,5 +41,6 @@ public class SynchronizedMapExample {
         int size = map.size();
         System.out.println("총 엔트리 객체 수: " + size);
         System.out.println();
+        System.out.println(map.get(1200));
     }
 }
