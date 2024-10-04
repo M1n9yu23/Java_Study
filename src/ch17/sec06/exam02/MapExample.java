@@ -20,5 +20,6 @@ public class MapExample {
         intStream = Arrays.stream(ints);
         intStream.boxed().forEach(obj -> System.out.println(obj.intValue()));
         // 기본타입 스트림을 참조타입 스트림으로 변환 즉 기본 스트림 -> 래퍼 스트림
+
     }
 }
