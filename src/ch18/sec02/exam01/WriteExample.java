@@ -20,12 +20,10 @@ public class WriteExample {
             os.write(a);
             os.write(b);
             os.write(c);
-
             os.write(d);
             os.write(e);
 
             os.flush(); // 버퍼에 잔류하는 바이트를 출력하고 버퍼를 비움.
-
             os.close();
         } catch (IOException e){
             e.printStackTrace();
