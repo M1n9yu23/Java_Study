@@ -14,12 +14,16 @@ public class WriteExample {
             byte b = 20;
             byte c = 30;
 
+            int d = 100;
+            int e = 300;
+
+
             os.write(a);
             os.write(b);
             os.write(c);
 
             os.flush(); // 버퍼에 잔류하는 바이트를 출력하고 버퍼를 비움.
-            
+
             os.close();
 
         } catch (IOException e){
