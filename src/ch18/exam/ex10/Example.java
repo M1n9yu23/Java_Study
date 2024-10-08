@@ -17,6 +17,7 @@ public class Example {
 
         if(fe.exists() == false){
             System.out.println("원본 파일이 존재하지 않습니다.");
+            System.exit(0);
         }
 
         if(targetParentFile.exists() == false){
